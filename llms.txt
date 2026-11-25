@@ -1,0 +1,28 @@
+# OpenForge Low-Code Development Platforms & AI Database App Builder
+
+> Open-source (MIT) AI database app builder and reproducible benchmark comparing OpenForge, Appsmith, ToolJet, Retool, Budibase, NocoDB, Directus, and Refine on an identical PostgreSQL inventory management application.
+
+## Live Workbench
+- Home: https://developer-assistants.github.io/low-code-development-platforms/
+- Repository: https://github.com/developer-assistants/low-code-development-platforms
+
+## 10 Runnable SQL Application Templates
+- [Inventory Management (inventory management app builder)](https://developer-assistants.github.io/low-code-development-platforms/templates/inventory-management-app-builder/): Track products, suppliers, stock levels, employee roles, and automated low-stock alerts over PostgreSQL or MySQL.
+- [Sales CRM (crm builder)](https://developer-assistants.github.io/low-code-development-platforms/templates/crm-builder/): Manage accounts, deal pipelines, follow-up tasks, and sales rep permissions without per-seat SaaS lock-in.
+- [Client Portal (client portal builder)](https://developer-assistants.github.io/low-code-development-platforms/templates/client-portal-builder/): Give customers scoped access to project milestones, shared deliverables, and invoice statuses.
+- [Support Ticketing System (ticketing system builder)](https://developer-assistants.github.io/low-code-development-platforms/templates/ticketing-system-builder/): Log customer issues, assign support engineers, enforce SLA priorities, and trigger escalation webhooks.
+- [Internal Admin Panel (admin panel builder)](https://developer-assistants.github.io/low-code-development-platforms/templates/admin-panel-builder/): Inspect production user accounts, feature flags, and billing plans over your existing SQL database.
+- [Employee Management (employee management app)](https://developer-assistants.github.io/low-code-development-platforms/templates/employee-management-app/): Maintain staff directories, department assignments, onboarding checklists, and PTO requests.
+- [Expense Approval Workflow (approval workflow software)](https://developer-assistants.github.io/low-code-development-platforms/templates/approval-workflow-software/): Submit purchase and expense requests, route them to managers by threshold, and log finance approvals.
+- [IT Asset Management (asset management app)](https://developer-assistants.github.io/low-code-development-platforms/templates/asset-management-app/): Track laptops, serial numbers, warranty expiration dates, assigned owners, and maintenance status.
+- [SQL Database App (database app builder)](https://developer-assistants.github.io/low-code-development-platforms/templates/database-app-builder/): Turn any PostgreSQL, MySQL, or SQLite schema into a typed CRUD interface with REST endpoints and role controls.
+- [Excel / CSV to Web App (excel to web app)](https://developer-assistants.github.io/low-code-development-platforms/templates/excel-to-web-app/): Paste or upload any CSV or Excel export to infer SQL column types and publish a multi-user web app with RBAC.
+
+## Platform Comparison Guides
+- [Appsmith vs ToolJet vs OpenForge: Inventory App Benchmark](https://developer-assistants.github.io/low-code-development-platforms/compare/appsmith-vs-tooljet/): Side-by-side benchmark of Appsmith, ToolJet, and OpenForge building the same PostgreSQL inventory system with RBAC and low-stock webhooks.
+- [Open-Source Retool Alternatives with Zero Per-Seat Lock-In](https://developer-assistants.github.io/low-code-development-platforms/compare/retool-alternative/): Compare self-hosted open-source Retool alternatives (OpenForge, Appsmith, ToolJet, Budibase, Directus) by seat cost, RBAC, and SQL portability.
+- [Open-Source Low-Code Platforms Compared (MIT, Apache 2.0, AGPLv3)](https://developer-assistants.github.io/low-code-development-platforms/compare/open-source-low-code-platform/): Technical comparison of open-source low-code platforms by license, self-hosting requirements, RBAC, and source export.
+- [Internal Tool Builder: Build Admin Panels and Ops Apps in Minutes](https://developer-assistants.github.io/low-code-development-platforms/compare/internal-tool-builder/): Build internal tools over PostgreSQL and MySQL with AI schema generation, CRUD forms, RBAC, and webhook automations.
+- [Self-Hosted Low-Code Platforms for Docker and Private VPCs](https://developer-assistants.github.io/low-code-development-platforms/compare/self-hosted-low-code-platform/): Deploy a low-code platform on your own server with Docker Compose, PostgreSQL, and zero external SaaS dependencies.
+- [CRUD Generator for PostgreSQL, MySQL, and SQLite](https://developer-assistants.github.io/low-code-development-platforms/compare/crud-generator/): Generate working create, read, update, and delete screens, SQL migrations, and REST endpoints from plain text or CSV.
+- [SQL GUI Builder: Turn PostgreSQL and MySQL Tables into Web Apps](https://developer-assistants.github.io/low-code-development-platforms/compare/sql-gui-builder/): Give non-technical teams a safe web GUI over PostgreSQL and MySQL without exposing raw SQL consoles.

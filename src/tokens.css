@@ -1,0 +1,70 @@
+/* hallmark: theme=cobalt, dealt=3/3, seed=open-source-low-code-development-platform-a9bd·232792c8·2026-11-25·r0, genre=modern-minimal, signature=live-ai-app-builder-with-sql-and-rbac */
+/* critique: cool near-white paper with hairline rules, Familjen Grotesk display over IBM Plex Sans body, JetBrains Mono on graphite code panes, cobalt keycaps */
+
+:root {
+  --color-paper: oklch(98.6% 0.005 250);
+  --color-paper-2: oklch(96.2% 0.008 252);
+  --color-paper-3: oklch(93% 0.011 252);
+  --color-ink: oklch(21% 0.028 262);
+  --color-ink-2: oklch(36% 0.022 260);
+  --color-muted: oklch(50% 0.018 258);
+  --color-rule: oklch(90% 0.009 252);
+  --color-rule-2: oklch(83% 0.012 252);
+
+  --color-graphite: oklch(21% 0.024 262);
+  --color-graphite-2: oklch(26.5% 0.026 262);
+  --color-graphite-ink: oklch(93% 0.010 250);
+  --color-graphite-muted: oklch(69% 0.022 256);
+
+  --color-accent: oklch(52% 0.19 258);
+  --color-accent-2: oklch(76% 0.13 254);
+  --color-accent-wash: oklch(95% 0.028 256);
+  --color-accent-ink: oklch(98.6% 0.005 250);
+  --color-focus: oklch(52% 0.19 258);
+  --color-accent-deep: oklch(43% 0.2 262);
+  --color-accent-edge: oklch(39% 0.16 260);
+
+  --color-ok: oklch(46% 0.14 155);
+  --color-ok-wash: oklch(95% 0.03 155);
+  --color-warn: oklch(52% 0.14 68);
+  --color-warn-wash: oklch(96% 0.035 72);
+  --color-err: oklch(52% 0.18 25);
+  --color-err-wash: oklch(95% 0.035 25);
+
+  --color-key-face: oklch(99.4% 0.003 250);
+  --color-key-edge: oklch(80% 0.016 254);
+
+  --font-display: "Familjen Grotesk", system-ui, sans-serif;
+  --font-body: "IBM Plex Sans", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  --radius-card: 8px;
+  --radius-input: 6px;
+  --cut: 8px;
+  --cut-l: 16px;
+  --rule-hair: 1px;
+
+  --shadow-card: 0 1px 2px oklch(21% 0.028 262 / 0.06);
+  --shadow-key: 0 3px 0 0 var(--color-key-edge), 0 6px 8px -4px oklch(21% 0.028 262 / 0.22), inset 0 1px 0 oklch(100% 0 0 / 0.9);
+  --shadow-key-accent: 0 3px 0 0 var(--color-accent-edge), 0 6px 8px -4px oklch(30% 0.12 260 / 0.42), inset 0 1px 0 oklch(100% 0 0 / 0.22);
+  --shadow-key-press: inset 0 1px 2px oklch(21% 0.028 262 / 0.14);
+
+  --tracking-display: -0.028em;
+  --dur-micro: 120ms;
+  --ease-out: cubic-bezier(0.2, 0.8, 0.2, 1);
+
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 40px;
+  --space-2xl: 64px;
+
+  --text-xs: 0.8125rem;
+  --text-sm: 0.875rem;
+  --text-md: 1rem;
+  --text-lg: 1.25rem;
+  --text-xl: 1.75rem;
+  --text-2xl: 2.5rem;
+  --text-3xl: clamp(2.15rem, 3.8vw, 3.15rem);
+}

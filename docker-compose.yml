@@ -1,0 +1,23 @@
+services:
+  app:
+    build: .
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db
+    environment:
+      - DATABASE_URL=postgres://openforge:openforge@db:5432/openforge
+
+  db:
+    image: postgres:16-alpine
+    environment:
+      - POSTGRES_USER=openforge
+      - POSTGRES_PASSWORD=openforge
+      - POSTGRES_DB=openforge
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:
